@@ -9,8 +9,8 @@ Site ini adalah **single-page reference** yang menyajikan seluruh teori musik ya
 ## Struktur File
 
 ```
-├── index.html    # Layout, konten, mind map (D3.js), note picker logic
-└── styles.css    # Styling — Inter + JetBrains Mono, Shadcn UI palette
+├── index.html    # Layout, konten, mind map (D3.js), note picker, interval trainer, chord shape visualizer
+└── styles.css    # Styling — Inter + JetBrains Mono
 ```
 
 Tidak ada build step. Buka `index.html` di browser.
@@ -66,7 +66,7 @@ Tool interaktif untuk latihan fretboard mapping:
 ## Design Decisions
 
 - **Bahasa Indonesia** — Target audience gitaris Indonesia
-- **Dark mode only** — Mengurangi eye strain saat belajar lama
+- **Dark mode toggle** — Mengurangi eye strain saat belajar lama
 - **No framework** — Load instan, zero dependencies selain D3 dan Google Fonts
 - **Key Takeaway** di setiap section — Ringkasan 2-3 kalimat untuk review cepat
 - **Fretboard display** di Note Picker — Visualisasi langsung posisi nada, bukan sekadar nama nada
